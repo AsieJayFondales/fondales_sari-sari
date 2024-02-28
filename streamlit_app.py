@@ -22,8 +22,9 @@ def app():
     st.write('Number of features: 64')
     text = """Feature representation: Binary values (1 or 0) representing the 8x8 pixels of an image.
         Target variable: This could be a single categorical variable representing the class of the image (e.g., animal recognition, foods classification)."""
-     text ="""Potential Applications:"""
+     text1 ="""Potential Applications:"""
     st.write(text)
+    st.write(text1)
     st.write('Animal recognition: Identifying different pixelated animals. ')
     st.write('Foods classification: Classifying different images of foods.')
     st.write('Things recognition: Recognizing characters from different solid things.')
