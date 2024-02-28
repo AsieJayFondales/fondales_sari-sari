@@ -17,10 +17,8 @@ def app():
     
     st.title('Animals, Foods, Things and Trees Recognizer')
     st.subheader('by Asie Jay E. Fondales, BSCS 3-B AI')
-    st.write('The naive bayes classifier performs well on overlapped data.')
 
     st.write('Dataset description:')
-
     st.write('Number of features: 64')
     text = """Feature representation: Binary values (1 or 0) representing the 8x8 pixels of an image.
         Target variable: This could be a single categorical variable representing the class of the image (e.g., animal recognition, foods classification).
